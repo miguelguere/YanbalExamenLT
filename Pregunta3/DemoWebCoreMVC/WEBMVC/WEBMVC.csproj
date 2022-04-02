@@ -18,9 +18,4 @@
   <ItemGroup>
     <ProjectReference Include="..\Infraestructure.Data\Infraestructure.Data.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Filters\" />
-  </ItemGroup>
-
 </Project>
