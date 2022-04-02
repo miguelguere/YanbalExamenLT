@@ -1,0 +1,13 @@
+﻿@model ErrorValidation
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+
+<p>
+    <strong>El correo @Model.Correo ya se encuentra registrado para otro usuario </strong>
+</p>
+<div>
+    <a asp-controller="Cliente" asp-action="Create" >Back to Create</a>
+</div>
